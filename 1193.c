@@ -14,7 +14,6 @@ int main()
     int t, i = 1;
 
     scanf("%d", &t);
-
     while(i<=t){
         scanf("%s %s", n, format);
         printf("Case %d:\n", i);
