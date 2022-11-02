@@ -1,4 +1,4 @@
-/*1169: GRAINS IN A CHESS BOARD - schautsu*/
+/*1169: TRIGO NO TABULEIRO - schautsu*/
 #include <stdio.h>
 #include <math.h>
 #include <inttypes.h>
