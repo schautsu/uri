@@ -9,7 +9,9 @@ int main()
     int n, sq;
 
     scanf("%d", &n);
-    while(n){
+    
+    while (n)
+    {
         scanf("%d", &sq);
 
         kg = (pow(2,sq) - 1) / 12000; 
@@ -18,6 +20,6 @@ int main()
         printf("%"PRIu64" kg\n", kg);
         
         n--;
-    }
-    
+    } 
+    return (0);
 }
