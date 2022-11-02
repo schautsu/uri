@@ -1,4 +1,4 @@
-/*1193: BASE CONVERSION - schautsu*/
+/*1193: CONVERSAO ENTRE BASES - schautsu*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
