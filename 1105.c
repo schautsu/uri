@@ -14,14 +14,12 @@ int main()
         for(i = 0; i < b; i++)
             scanf("%d", &money_res[i]);
         
-        while (n)
+        while (n--)
         {
             scanf("%d %d %d", &debtor, &creditor, &deb);
 
             money_res[debtor-1] -= deb;
             money_res[creditor-1] += deb;
-            
-            n--;
         }
         for ( i = 0; i < b; i++)
         {
