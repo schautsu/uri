@@ -15,8 +15,8 @@ int main()
         scanf("%d", &sq);
 
         kg = (pow(2,sq) - 1) / 12000; 
-        /*(pow(2,sq) - 1): grams
-        12000 grams: 1 kg*/
+        /*(pow(2,sq) - 1): grains
+        12000 grains: 1 kg*/
         printf("%"PRIu64" kg\n", kg);
     } 
     return (0);
