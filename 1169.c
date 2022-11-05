@@ -10,7 +10,7 @@ int main()
 
     scanf("%d", &n);
     
-    while (n)
+    while (n--)
     {
         scanf("%d", &sq);
 
@@ -18,8 +18,6 @@ int main()
         /*(pow(2,sq) - 1): grams
         12000 grams: 1 kg*/
         printf("%"PRIu64" kg\n", kg);
-        
-        n--;
     } 
     return (0);
 }
