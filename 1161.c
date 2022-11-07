@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <inttypes.h>
 
-/*Function Prototype*/
+/*function prototype*/
 int64_t fatorial(int x);
 
 int main()
